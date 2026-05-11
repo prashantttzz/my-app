@@ -15,8 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-testing merge conflict 
-</a>
+feature a changes </a>
       </header>
     </div>
   );
