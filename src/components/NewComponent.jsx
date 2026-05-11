@@ -11,6 +11,8 @@ const NewComponent = ({name,id,...user}) => {
       {/* conditionally rendering  */}
       <p>{name ??"prashant"}</p>
       {/* nullish provide a feedback if null or undefined */}
+      <p>{user?.name}</p>
+      {/* optional chaining prevent breaking of code for undefined values */}
 
     </div>
     
