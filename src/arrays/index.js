@@ -16,3 +16,6 @@ const findItems = items.find((item)=>item===11);
 console.log("finditems",findItems)
 
 //find return the first matching element and filter return new array that pass the provided function
+
+const[one,two] = items;
+console.log("array destructuring",one)
